@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A117C36C1C0BC1E400336DA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A117C36B1C0BC1E400336DA5 /* AppDelegate.swift */; };
+		A117C3751C0BC1E500336DA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A117C3741C0BC1E500336DA5 /* Assets.xcassets */; };
+		A117C3781C0BC1E500336DA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A117C3761C0BC1E500336DA5 /* LaunchScreen.storyboard */; };
+		A117C3821C0D412600336DA5 /* LocationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A117C3811C0D412600336DA5 /* LocationsViewController.swift */; };
+		A117C38E1C0DF28200336DA5 /* ChickenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A117C38D1C0DF28200336DA5 /* ChickenViewController.swift */; };
+		A117C3901C0DFB9F00336DA5 /* PorkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A117C38F1C0DFB9F00336DA5 /* PorkViewController.swift */; };
+		A117C3921C0DFEE500336DA5 /* BakeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A117C3911C0DFEE500336DA5 /* BakeViewController.swift */; };
+		A117C3941C0E041C00336DA5 /* StirFryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A117C3931C0E041C00336DA5 /* StirFryViewController.swift */; };
+		A117C39C1C0E08B000336DA5 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A117C39B1C0E08B000336DA5 /* OrderViewController.swift */; };
+		A12520CA1C26B44000A9D5FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A12520C81C26B44000A9D5FF /* Main.storyboard */; };
+		A13E72021C52B77300365C72 /* veggies.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A13E72011C52B77300365C72 /* veggies.jpg */; };
+		A13E72081C52B91200365C72 /* classic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A13E72031C52B91200365C72 /* classic.jpg */; };
+		A13E72091C52B91200365C72 /* panseared2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A13E72041C52B91200365C72 /* panseared2.jpg */; };
+		A13E720A1C52B91200365C72 /* porkburger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A13E72051C52B91200365C72 /* porkburger.jpg */; };
+		A13E720B1C52B91200365C72 /* sausagebake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A13E72061C52B91200365C72 /* sausagebake.jpg */; };
+		A13E720C1C52B91200365C72 /* stiryfry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A13E72071C52B91200365C72 /* stiryfry.jpg */; };
+		A13E720E1C52CD4400365C72 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A13E720D1C52CD4400365C72 /* MapKit.framework */; };
+		A1530F4D1C4D16790069AD70 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1530F4C1C4D16790069AD70 /* AboutViewController.swift */; };
+		A1530F4F1C4E8EDF0069AD70 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A1530F4E1C4E8EDF0069AD70 /* icon.png */; };
+		A1539B061C306F35006F4AC1 /* BoxesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1539B051C306F35006F4AC1 /* BoxesViewController.swift */; };
+		A1539B081C3074EF006F4AC1 /* BoxDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1539B071C3074EF006F4AC1 /* BoxDescriptionViewController.swift */; };
+		A1539B0A1C31CA09006F4AC1 /* SelectLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1539B091C31CA09006F4AC1 /* SelectLocationViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A117C3681C0BC1E400336DA5 /* BostonFoods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BostonFoods.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A117C36B1C0BC1E400336DA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A117C3741C0BC1E500336DA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A117C3771C0BC1E500336DA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A117C3791C0BC1E500336DA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A117C3811C0D412600336DA5 /* LocationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsViewController.swift; sourceTree = "<group>"; };
+		A117C38D1C0DF28200336DA5 /* ChickenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChickenViewController.swift; sourceTree = "<group>"; };
+		A117C38F1C0DFB9F00336DA5 /* PorkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PorkViewController.swift; sourceTree = "<group>"; };
+		A117C3911C0DFEE500336DA5 /* BakeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BakeViewController.swift; sourceTree = "<group>"; };
+		A117C3931C0E041C00336DA5 /* StirFryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StirFryViewController.swift; sourceTree = "<group>"; };
+		A117C39B1C0E08B000336DA5 /* OrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
+		A12520C91C26B44000A9D5FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../BostonFoods2/BostonFoods2/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A13E72011C52B77300365C72 /* veggies.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = veggies.jpg; path = ../../veggies.jpg; sourceTree = "<group>"; };
+		A13E72031C52B91200365C72 /* classic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = classic.jpg; path = ../../Harvard/Fresh/CS50/FinalProj/Pics/classic.jpg; sourceTree = "<group>"; };
+		A13E72041C52B91200365C72 /* panseared2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = panseared2.jpg; path = ../../Harvard/Fresh/CS50/FinalProj/Pics/panseared2.jpg; sourceTree = "<group>"; };
+		A13E72051C52B91200365C72 /* porkburger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = porkburger.jpg; path = ../../Harvard/Fresh/CS50/FinalProj/Pics/porkburger.jpg; sourceTree = "<group>"; };
+		A13E72061C52B91200365C72 /* sausagebake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sausagebake.jpg; path = ../../Harvard/Fresh/CS50/FinalProj/Pics/sausagebake.jpg; sourceTree = "<group>"; };
+		A13E72071C52B91200365C72 /* stiryfry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = stiryfry.jpg; path = ../../Harvard/Fresh/CS50/FinalProj/Pics/stiryfry.jpg; sourceTree = "<group>"; };
+		A13E720D1C52CD4400365C72 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		A1530F4C1C4D16790069AD70 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AboutViewController.swift; path = BostonFoods2/AboutViewController.swift; sourceTree = SOURCE_ROOT; };
+		A1530F4E1C4E8EDF0069AD70 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = SOURCE_ROOT; };
+		A1539B051C306F35006F4AC1 /* BoxesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoxesViewController.swift; sourceTree = "<group>"; };
+		A1539B071C3074EF006F4AC1 /* BoxDescriptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoxDescriptionViewController.swift; sourceTree = "<group>"; };
+		A1539B091C31CA09006F4AC1 /* SelectLocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectLocationViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A117C3651C0BC1E400336DA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A13E720E1C52CD4400365C72 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A117C35F1C0BC1E400336DA5 = {
+			isa = PBXGroup;
+			children = (
+				A13E720D1C52CD4400365C72 /* MapKit.framework */,
+				A117C36A1C0BC1E400336DA5 /* BostonFoods */,
+				A117C3691C0BC1E400336DA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A117C3691C0BC1E400336DA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A117C3681C0BC1E400336DA5 /* BostonFoods.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A117C36A1C0BC1E400336DA5 /* BostonFoods */ = {
+			isa = PBXGroup;
+			children = (
+				A117C3A11C10BB0200336DA5 /* Images */,
+				A117C36B1C0BC1E400336DA5 /* AppDelegate.swift */,
+				A1530F4C1C4D16790069AD70 /* AboutViewController.swift */,
+				A117C3811C0D412600336DA5 /* LocationsViewController.swift */,
+				A1539B091C31CA09006F4AC1 /* SelectLocationViewController.swift */,
+				A117C38D1C0DF28200336DA5 /* ChickenViewController.swift */,
+				A117C38F1C0DFB9F00336DA5 /* PorkViewController.swift */,
+				A117C3911C0DFEE500336DA5 /* BakeViewController.swift */,
+				A117C3931C0E041C00336DA5 /* StirFryViewController.swift */,
+				A117C39B1C0E08B000336DA5 /* OrderViewController.swift */,
+				A1539B071C3074EF006F4AC1 /* BoxDescriptionViewController.swift */,
+				A1539B051C306F35006F4AC1 /* BoxesViewController.swift */,
+				A12520C81C26B44000A9D5FF /* Main.storyboard */,
+				A117C3761C0BC1E500336DA5 /* LaunchScreen.storyboard */,
+				A117C3741C0BC1E500336DA5 /* Assets.xcassets */,
+				A117C3791C0BC1E500336DA5 /* Info.plist */,
+			);
+			name = BostonFoods;
+			path = BostonFoods2;
+			sourceTree = "<group>";
+		};
+		A117C3A11C10BB0200336DA5 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A13E72011C52B77300365C72 /* veggies.jpg */,
+				A13E72031C52B91200365C72 /* classic.jpg */,
+				A13E72041C52B91200365C72 /* panseared2.jpg */,
+				A13E72051C52B91200365C72 /* porkburger.jpg */,
+				A13E72061C52B91200365C72 /* sausagebake.jpg */,
+				A13E72071C52B91200365C72 /* stiryfry.jpg */,
+				A1530F4E1C4E8EDF0069AD70 /* icon.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A117C3671C0BC1E400336DA5 /* BostonFoods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A117C37C1C0BC1E500336DA5 /* Build configuration list for PBXNativeTarget "BostonFoods" */;
+			buildPhases = (
+				A117C3641C0BC1E400336DA5 /* Sources */,
+				A117C3651C0BC1E400336DA5 /* Frameworks */,
+				A117C3661C0BC1E400336DA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BostonFoods;
+			productName = BostonFoods2;
+			productReference = A117C3681C0BC1E400336DA5 /* BostonFoods.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A117C3601C0BC1E400336DA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Boston Foods";
+				TargetAttributes = {
+					A117C3671C0BC1E400336DA5 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 837Q36QUSR;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = A117C3631C0BC1E400336DA5 /* Build configuration list for PBXProject "BostonFoods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A117C35F1C0BC1E400336DA5;
+			productRefGroup = A117C3691C0BC1E400336DA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A117C3671C0BC1E400336DA5 /* BostonFoods */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A117C3661C0BC1E400336DA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A13E720B1C52B91200365C72 /* sausagebake.jpg in Resources */,
+				A13E720C1C52B91200365C72 /* stiryfry.jpg in Resources */,
+				A13E720A1C52B91200365C72 /* porkburger.jpg in Resources */,
+				A13E72091C52B91200365C72 /* panseared2.jpg in Resources */,
+				A13E72081C52B91200365C72 /* classic.jpg in Resources */,
+				A12520CA1C26B44000A9D5FF /* Main.storyboard in Resources */,
+				A1530F4F1C4E8EDF0069AD70 /* icon.png in Resources */,
+				A117C3781C0BC1E500336DA5 /* LaunchScreen.storyboard in Resources */,
+				A13E72021C52B77300365C72 /* veggies.jpg in Resources */,
+				A117C3751C0BC1E500336DA5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A117C3641C0BC1E400336DA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A117C39C1C0E08B000336DA5 /* OrderViewController.swift in Sources */,
+				A1539B061C306F35006F4AC1 /* BoxesViewController.swift in Sources */,
+				A1530F4D1C4D16790069AD70 /* AboutViewController.swift in Sources */,
+				A117C38E1C0DF28200336DA5 /* ChickenViewController.swift in Sources */,
+				A117C3901C0DFB9F00336DA5 /* PorkViewController.swift in Sources */,
+				A1539B0A1C31CA09006F4AC1 /* SelectLocationViewController.swift in Sources */,
+				A117C36C1C0BC1E400336DA5 /* AppDelegate.swift in Sources */,
+				A117C3921C0DFEE500336DA5 /* BakeViewController.swift in Sources */,
+				A117C3941C0E041C00336DA5 /* StirFryViewController.swift in Sources */,
+				A117C3821C0D412600336DA5 /* LocationsViewController.swift in Sources */,
+				A1539B081C3074EF006F4AC1 /* BoxDescriptionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A117C3761C0BC1E500336DA5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A117C3771C0BC1E500336DA5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A12520C81C26B44000A9D5FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A12520C91C26B44000A9D5FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A117C37A1C0BC1E500336DA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A117C37B1C0BC1E500336DA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A117C37D1C0BC1E500336DA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = BostonFoods2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BostonFoods.Mobile.BostonFoodsMobile;
+				PRODUCT_NAME = BostonFoods;
+				PROVISIONING_PROFILE = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A117C37E1C0BC1E500336DA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = BostonFoods2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BostonFoods.Mobile.BostonFoodsMobile;
+				PRODUCT_NAME = BostonFoods;
+				PROVISIONING_PROFILE = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A117C3631C0BC1E400336DA5 /* Build configuration list for PBXProject "BostonFoods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A117C37A1C0BC1E500336DA5 /* Debug */,
+				A117C37B1C0BC1E500336DA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A117C37C1C0BC1E500336DA5 /* Build configuration list for PBXNativeTarget "BostonFoods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A117C37D1C0BC1E500336DA5 /* Debug */,
+				A117C37E1C0BC1E500336DA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A117C3601C0BC1E400336DA5 /* Project object */;
+}
